@@ -11,7 +11,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to the new site of mambo salsa </h1>
         </header>
         <p className="App-intro">
-         c'est parti!!!!!!!!!!!!
+         c'est parti!!
         </p>
       </div>
     );
