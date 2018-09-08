@@ -1,18 +1,15 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'  
+import Toolbar from './components/Toolbar/Toolbar.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to the new site of mambo salsa </h1>
-        </header>
-        <p className="App-intro">
-         c'est parti!!
-        </p>
+      <Toolbar />
+      <main className="body">
+        <p>This is the main page</p>
+      </main>
       </div>
     );
   }

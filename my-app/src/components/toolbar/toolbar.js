@@ -1,11 +1,14 @@
 import React from 'react'
 
+import './Toolbar.css'
+
 const toolbar = props => (
     <header className="toolbar">
-        <nav>
+        <nav className="toolbar_navigation">
             <div></div>   
-            <div><a href="/">Mambo Salsa new web site</a>   
-            <div>
+            <div className="toolbar_logo"><a href="/">Mambo Salsa</a></div>  
+            <div className="spacer" />
+            <div className="toolbar_navigation_items">
                 <ul>
                     <li><a href="/">Activites</a></li>
                     <li><a href="/">Calendrier</a></li>
@@ -16,4 +19,5 @@ const toolbar = props => (
             </div>
         </nav> 
     </header>  
-)
+    )
+export default toolbar
