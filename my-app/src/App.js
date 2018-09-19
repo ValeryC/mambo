@@ -1,52 +1,30 @@
 import React, { Component } from 'react'
+import { BrowserRouter, Route, Switch  }from 'react-router-dom'
 import './App.css'  
-import Toolbar from './components/Toolbar/Toolbar.js'
-import SideDrawer from './components/SideDrawer/SideDrawer.js'
-import Backdrop from './components/Backdrop/Backdrop.js'
-import Carousel from "./components/Carousel/Carousel.js";
-import "./components/Carousel/Carousel.css"
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Homepage from './containers/Homepage.js'
 
 class App extends Component {
-  
-  state = {
-    sideDrawerOpen : false
-  }
-
-  drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return {sideDrawerOpen:!prevState.sideDrawerOpen}
-    })
-  }
-
-  backdropClickHandler = () =>{
-    this.setState({sideDrawerOpen:false})
-  }
 
   render() {
-    let sideDrawer;
-    let backdrop;
-
-    if (this.state.sideDrawerOpen) {
-      sideDrawer = <SideDrawer />
-      backdrop = <Backdrop click={this.backdropClickHandler}/>
-    }
+  
     return (
-      <div style ={{height:'100%'}} >
-      <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-      <SideDrawer show={this.state.sideDrawerOpen}/>
-      {backdrop}      
-      <main className="body">
-        <p>This is the main page</p>
-      </main>
-      <div className="Carrousel-size">
-      <Carousel />
+      <div>
+         <BrowserRouter>
+          <div>
+            <Switch>
+              <Route exact path="/" component={Homepage}/>
+              {/* <Route exact path="/activites" component={Activites}/>
+              <Route exact path="/calendrier" component={Calendrier}/>
+              <Route exact path="/intervenants" component={Intervenants}/>
+              <Route exact path="/partenaires" component={Partenaires}/>
+              <Route exact path="/galerie" component={Galerie}/>
+              <Route exact path="/adhesion" component={Adhesion}/> */}
+            </Switch>
+          </div>
+        </BrowserRouter>
       </div>
-  
-  
-    </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
