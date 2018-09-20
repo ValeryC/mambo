@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import '../App.css'
 import '../components/Carousel/Carousel.css'
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import Navbar from './Navbar.js'
-import Carousel from '../components/Carousel/Carousel'
+import Carousel from '../components/Carousel/Carousel.js'
 
 class Homepage extends Component {
   render() {
@@ -13,7 +12,7 @@ class Homepage extends Component {
         <main className='body'>
           Homepage
       </main>
-        <div className='Carrousel-size'>
+        <div className='carousel-size'>
           <Carousel />
         </div>
       </div>
