@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import '../App.css'
-import Toolbar from '../components/Toolbar/Toolbar'
-import SideDrawer from '../components/SideDrawer/SideDrawer'
-import Backdrop from '../components/Backdrop/Backdrop'
+import Toolbar from '../components/Toolbar/Toolbar.js'
+import SideDrawer from '../components/SideDrawer/SideDrawer.js'
+import Backdrop from '../components/Backdrop/Backdrop.js'
 
 class Navbar extends Component {
 

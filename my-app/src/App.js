@@ -16,13 +16,13 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Switch>
-              <Route exact path="/" component={Homepage} />
-              <Route exact path="/activites" component={Activites} />
-              <Route exact path="/calendrier" component={Calendrier} />
-              <Route exact path="/intervenants" component={Intervenants} />
-              <Route exact path="/partenaires" component={Partenaires} />
-              <Route exact path="/galerie" component={Galerie} />
-              <Route exact path="/adhesion" component={Adhesion} />
+              <Route exact path='/' component={Homepage} />
+              <Route exact path='/activites' component={Activites} />
+              <Route exact path='/calendrier' component={Calendrier} />
+              <Route exact path='/intervenants' component={Intervenants} />
+              <Route exact path='/partenaires' component={Partenaires} />
+              <Route exact path='/galerie' component={Galerie} />
+              <Route exact path='/adhesion' component={Adhesion} />
             </Switch>
           </div>
         </BrowserRouter>

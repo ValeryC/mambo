@@ -10,10 +10,10 @@ class Homepage extends Component {
     return (
       <div>
         <Navbar />
-        <main className="body">
+        <main className='body'>
           Homepage
       </main>
-        <div className="Carrousel-size">
+        <div className='Carrousel-size'>
           <Carousel />
         </div>
       </div>
