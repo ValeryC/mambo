@@ -1,0 +1,10 @@
+.body { 
+  color:yellow;
+  position: fixed;
+  margin-top: 64px;
+}
+
+.Carrousel-size{
+  padding-left: 15%;
+  width: 70%;
+}
