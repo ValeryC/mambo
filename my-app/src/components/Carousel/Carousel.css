@@ -1,13 +1,3 @@
-.carousel-size {
-  opacity: 1;
-  /* margin-top:80px; */
-  /* padding-left: 15%; */
-  width: 100vw;
-  height: 100vh;
-  /* position: fixed; */
-  z-index: 1;
-}
-
 .carousel-global {
   height : 10px;
   background-color: yellow; 
