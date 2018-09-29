@@ -1,10 +1,30 @@
-.Carrousel-size {
+.carousel-size {
   opacity: 1;
-  margin-top:80px;
-    
+  /* margin-top:80px; */
+  /* padding-left: 15%; */
+  width: 100vw;
+  height: 100vh;
+  /* position: fixed; */
+  z-index: 1;
 }
 
-.Carou {
-  height :10px;
+.carousel-global {
+  height : 10px;
   background-color: yellow; 
+}
+
+.carousel .slider-wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-status {
+  display: none;
 }
