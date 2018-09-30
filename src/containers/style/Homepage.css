@@ -20,7 +20,7 @@
   width: 100%;
   height: auto;
   top: 100vh;
-  overflow: hidden;  
+  /* overflow: hidden;   */
 }
 
 .homepage-presentation-background {
@@ -30,30 +30,39 @@
   max-width: 100%;
   height: 100vh;
   overflow: hidden;
+  background-color: black;
+  /* box-shadow: 10px 10px 8px black; */
+}
+
+.homepage-presentation-background-fixed {
+  position: fixed;
+  top: 0;
   /* box-shadow: 10px 10px 8px black; */
 }
 
 .homepage-presentation-image {
-  width: 100%;
-  height: 100%;
+  width: 110%;
+  height: 110%;
   background-image: url('../../img/bgHome2.jpg');
-  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   background-size: cover;
-  object-fit: cover;
-  object-position: center;
-  -webkit-filter: blur(3px);
-  -moz-filter: blur(3px);
-  -o-filter: blur(3px);
-  -ms-filter: blur(3px);
-  filter: blur(3px);
+  background-position: bottom;
+  /* object-fit: cover;
+  object-position: center; */
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
   transform: scale(1.1);
+  opacity: 0.9;
 }
 
 .homepage-presentation-content {
   position: relative;
   z-index: 4;
   width: 100vw;
+  max-width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
@@ -61,18 +70,36 @@
   top: -100vh;
 }
 
+.homepage-presentation-content-scroll {
+  top: 0;
+}
+
 .homepage-presentation-text {
   width: 60%;
-  height: 1000px;
+  height: auto;
   display: flex;
   align-items: center;
   background: white;
   margin: 13em;
 }
 
+.homepage-presentation-text h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  color: #9a2424;
+  text-align: center;
+  padding-top: 2em;
+}
+
 .homepage-presentation-text p {
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-align: justify;
   white-space: pre-wrap;
   padding: 2em;
+}
+
+.homepage-presentation-text span {
+  color: #9a2424;
+  font-weight: 500;
 }
