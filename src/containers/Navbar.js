@@ -5,7 +5,6 @@ import SideDrawer from '../components/SideDrawer/SideDrawer.js'
 import Backdrop from '../components/Backdrop/Backdrop.js'
 
 class Navbar extends Component {
-
   state = {
     sideDrawerOpen: false
   }
