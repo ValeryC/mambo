@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer.js'
 
 const Page = ({ Content, background }) => {
   return (
@@ -8,6 +9,7 @@ const Page = ({ Content, background }) => {
         style={{ backgroundImage: `url(${background}` }}></div>
       </div>
       <Content />
+      <Footer />
     </div >
   )
 }
