@@ -35,7 +35,7 @@ class HomepagePresentationContent extends Component {
   render() {
 
     return (
-      <div id='presentationAsso' className='homepage-presentation-container'>
+      <div id='presentationAsso'>
         <div id='background-part' className='homepage-presentation-background'>
           <div className='homepage-presentation-image'></div>
         </div>

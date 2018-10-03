@@ -5,35 +5,24 @@ import Navbar from './Navbar.js'
 import Carousel from '../components/Carousel/Carousel.js'
 import LinkToPagePart from '../components/LinkToPagePart.js'
 import HomepagePresentationContent from '../components/HomepagePresentationContent.js'
+import HomepageActu from '../components/HomepageActu.js'
+import Footer from './Footer.js'
 
 class Homepage extends Component {
-
-  // componentDidMount() {
-
-  // }
-
-
-
-
-  render() {
-
-    // const targetDiv = document.getElementById('presentationAsso')
-    // const linkToPagePart = () => {
-    //   targetDiv.scrollIntoView({behavior: 'smooth'})
-    // }
-
+render() {
     return (
       <div className='homepage'>
         <Navbar />
         <div className='homepage-carousel-part'>
           <Carousel />
-          {/* <a className='test' href='#presentationAsso'> */}
-            {/* <div className='homepage-link-to-page-part'> */}
-              <LinkToPagePart text="Découvrez l'association" anchor='#presentationAsso' classStyle='homepage-link-to-page-part'/>
-            {/* </div> */}
-          {/* </a> */}
+          <LinkToPagePart text="Découvrez l'association" anchor='#presentationAsso' classStyle='homepage-link-to-page-part'/>
         </div>
-        <HomepagePresentationContent />
+        <div  className='homepage-presentation-container'>
+          <HomepagePresentationContent />
+          {/* <LinkToPagePart text="Actualités" anchor='#actuAsso' classStyle='homepage-link-to-page-part'/> */}
+        <Footer />
+        </div>
+        {/* <HomepageActu /> */}
       </div>
     )
   }
