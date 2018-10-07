@@ -13,7 +13,7 @@ const sideDrawer = props => {
         <li><Link to={'/activites'}>Activites</Link></li>
         <li><Link to={'/calendrier'}>Calendrier</Link></li>
         <li><Link to={'/intervenants'}>Intervenants</Link></li>
-        <li><Link to={'/partenaires'}>Partenaires</Link></li>
+        <li><Link to={'/lieux'}>Lieux</Link></li>
         <li><Link to={'/galerie'}>Galerie</Link></li>
         <li><Link to={'/adhesion'}>Adhésion</Link></li>
       </ul>

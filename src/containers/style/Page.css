@@ -45,36 +45,61 @@
   max-width: 100%;
   height: auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.page-text {
+
+.page-category-content {
   width: 60%;
   height: 1500px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   background: white;
-  margin: 13em;
+  margin: 20em 0 13em 0;
 }
 
-.page-text h1 {
+.page-category-content-title {
+  position: relative;
+  z-index: 5;
+  width: 50%;
+  background-color: rgba(154, 36, 36, 0.7);
+  border-bottom: 6px solid #9a2424;
+  height: 4em;
+  color: white;
+  top: -4em;
+  padding-left: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.page-category-content h1 {
   font-family: 'Anton', sans-serif;
-  font-size: 2.5em;
+  font-size: 1.9em;
+  font-weight: normal;
   text-transform: uppercase;
-  color: #9a2424;
-  text-align: center;
-  padding-top: 2em;
+  color: white;
+  padding-top: 0.2em;
+  margin: 0;
+  box-sizing: border-box;
+  letter-spacing: 0.02em;
 }
 
-.page-text p {
+.page-category-content p {
   font-size: 1.6em;
   text-align: justify;
   white-space: pre-wrap;
-  padding: 2em;
+  padding: 0 2em;
+  margin: 0;
 }
 
 .page-text span {
+  color: #9a2424;
+  font-weight: 500;
+}
+
+.page-category-content-link {
   color: #9a2424;
   font-weight: 500;
 }

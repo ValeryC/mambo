@@ -10,7 +10,7 @@ class Activites extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={ActivitesContent} background={bg1}/>
+      <Page Content={ActivitesContent} background={bg1} categoryName='Cours'/>
     </div>
     )
   }
