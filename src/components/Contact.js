@@ -19,7 +19,7 @@ class Contact extends Component {
     const { open } = this.state
     return (
       <div className='contact'>
-        <div onClick={this.onOpenModal}><span>Nous contacter</span></div>
+        <div onClick={this.onOpenModal}><span style={{cursor: 'pointer'}}>Nous contacter</span></div>
         <Modal open={open} onClose={this.onCloseModal} center>
           <ContactModal close={this.onCloseModal}/>
         </Modal>
