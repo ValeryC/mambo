@@ -3,7 +3,6 @@ import './style/Footer.css'
 import Newsletter from '../components/Newsletter.js'
 import Contact from '../components/Contact.js'
 
-
 class Footer extends Component {
   render() {
     return (

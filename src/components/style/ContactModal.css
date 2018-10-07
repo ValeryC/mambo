@@ -1,0 +1,92 @@
+.contact-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 30vw;
+  height:auto;
+  padding: 1.5em 0;
+}
+
+.contact-modal h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  color: #9a2424;
+  text-align: center;
+  margin-top: 0.8em;
+}
+
+.contact-modal p {
+  font-size: 1.6em;
+  margin: 1em;
+  padding: 0;
+}
+
+.contact-modal span {
+  font-weight: 700;
+}
+
+.contact-modal-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+.contact-modal-form input {
+  width: 100%;
+  height: 2em;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 0.5em 0;
+  padding: 0.4em 0;
+  box-sizing: border-box;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300; 
+}
+
+.contact-modal-form textarea {
+  width: 100%;
+  height: 10em;
+  resize: none;
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 0.4em;
+  margin: 1em 0 0.5em 0;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300; 
+  color: black; 
+}
+
+.contact-modal button {
+  background-color: black;
+  color: white;
+  padding: 0.6em 1.8em 0.4em 1.8em;
+  box-sizing: border-box;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 1.4em;
+  font-weight: 300; 
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.contact-modal button:hover {
+  background-color: #9a2424;
+  font-weight: 300;
+}
+
+.content-modal-form-error {
+  color: #9a2424;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
