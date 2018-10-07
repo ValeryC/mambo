@@ -4,7 +4,7 @@ import ContactModal from './ContactModal.js'
 
 class Contact extends Component {
   state = {
-    open: true,
+    open: false,
   }
 
   onOpenModal = () => {
