@@ -5,7 +5,7 @@ import Homepage from './containers/Homepage.js'
 import Activites from './containers/Activites.js'
 import Calendrier from './containers/Calendrier.js'
 import Intervenants from './containers/Intervenants.js'
-import Partenaires from './containers/Partenaires.js'
+import Lieux from './containers/Lieux.js'
 import Galerie from './containers/Galerie.js'
 import Adhesion from './containers/Adhesion.js'
 
@@ -20,7 +20,7 @@ class App extends Component {
               <Route exact path='/activites' component={Activites} />
               <Route exact path='/calendrier' component={Calendrier} />
               <Route exact path='/intervenants' component={Intervenants} />
-              <Route exact path='/partenaires' component={Partenaires} />
+              <Route exact path='/lieux' component={Lieux} />
               <Route exact path='/galerie' component={Galerie} />
               <Route exact path='/adhesion' component={Adhesion} />
             </Switch>

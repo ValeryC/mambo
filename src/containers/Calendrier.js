@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style/Page.css'
 import Navbar from './Navbar.js'
 import Page from './Page.js'
-import CalendrierContent from '../components/CalendrierContent.js'
+import CalendrierContent from './CalendrierContent.js'
 import bg2 from '../img/bgHome2.jpg'
 
 class Calendrier extends Component {
@@ -10,7 +10,7 @@ class Calendrier extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={CalendrierContent} background={bg2}/>
+      <Page Content={CalendrierContent} background={bg2} categoryName='Calendrier'/>
     </div>
     )
   }
