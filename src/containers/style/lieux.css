@@ -17,13 +17,6 @@
   text-align: center;
 }
 
-.place-description-odd {
-  padding-left: 2%;
-  padding-right: 2%;
-  font-size: 14px;
-  margin-bottom: 25px;
-}
-
 .place-even {
   display: flex;
   flex-direction: row;
@@ -43,7 +36,7 @@
   text-align: center;
 }
 
-.place-description-even {
+.place-description {
   padding-left: 2%;
   padding-right: 2%;
   font-size: 14px;

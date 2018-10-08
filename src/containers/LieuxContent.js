@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { Component } from 'react'
 import lieux from '../datas/lieux.json'
 import Carousel from '../components/Carousel/Carousel.js'
 import './style/lieux.css'
 
-const LieuxContent = ({ title }) => {
-  const evenPlace = lieu => {
+class LieuxContent extends Component {
+  evenPlace = lieu => {
     return (
       <React.Fragment>
         <div className='place-even'>
@@ -25,7 +25,7 @@ const LieuxContent = ({ title }) => {
           </div>
           <Carousel />
         </div>
-        <div className='place-description-even'>
+        <div className='place-description'>
           {lieu.description}
         </div>
         <div/>
@@ -33,7 +33,7 @@ const LieuxContent = ({ title }) => {
     )
   }
 
-  const oddPlace = (lieu) => {
+  oddPlace = (lieu) => {
     return (
       <React.Fragment>
         <div className='place-odd'>
@@ -54,7 +54,7 @@ const LieuxContent = ({ title }) => {
           </div>
           <Carousel />
         </div>
-        <div className='place-description-odd'>
+        <div className='place-description'>
           {lieu.description}
         </div>
         <div/>
@@ -62,17 +62,27 @@ const LieuxContent = ({ title }) => {
     )
   }
 
-  return (
-    <div className='page-content'>
-      <div className='page-category-content'>
-      <div className='page-category-content-title'><h1>{title}</h1></div>
-        {lieux.map((lieu, index) => {
-          if (index % 2 === 0) return evenPlace(lieu)
-          else return oddPlace(lieu)
-        })}
+  componentDidMount () {
+    lieux.forEach((place, index) => {
+      document.getElementsByClassName('place-description')[index].innerHTML = place.description
+    })
+  }
+
+  render () {
+    return (
+      <div className='page-content'>
+        <div className='page-category-content'>
+        <div className='page-category-content-title'>
+          <h1>{this.title}</h1>
+        </div>
+          {lieux.map((lieu, index) => {
+            if (index % 2 === 0) return this.evenPlace(lieu)
+            else return this.oddPlace(lieu)
+          })}
+        </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default LieuxContent
