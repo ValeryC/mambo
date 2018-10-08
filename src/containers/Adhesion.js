@@ -10,7 +10,7 @@ class Adhesion extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={AdhesionContent} background={bg3}/>
+      <Page Content={AdhesionContent} background={bg3} categoryName='Adhésion'/>
     </div>
     )
   }

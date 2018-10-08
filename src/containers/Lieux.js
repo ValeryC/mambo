@@ -10,7 +10,7 @@ class Lieux extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={LieuxContent} background={bg1}/>
+      <Page Content={LieuxContent} background={bg1} categoryName='Lieux'/>
     </div>
     )
   }

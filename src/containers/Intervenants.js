@@ -10,7 +10,7 @@ class Intervenants extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={IntervenantsContent} background={bg3}/>
+      <Page Content={IntervenantsContent} background={bg3} categoryName='Intervenants'/>
     </div>
     )
   }

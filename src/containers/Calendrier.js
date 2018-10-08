@@ -10,7 +10,7 @@ class Calendrier extends Component {
     return (
       <div className='page'>
       <Navbar />      
-      <Page Content={CalendrierContent} background={bg2}/>
+      <Page Content={CalendrierContent} background={bg2} categoryName='Calendrier'/>
     </div>
     )
   }

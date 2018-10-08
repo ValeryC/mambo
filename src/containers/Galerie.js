@@ -10,7 +10,7 @@ class Galerie extends Component {
     return (
       <div className='page'>
         <Navbar />
-        <Page Content={GalerieContent} background={bg2} />
+        <Page Content={GalerieContent} background={bg2} categoryName='Galerie'/>
       </div>
     )
   }
