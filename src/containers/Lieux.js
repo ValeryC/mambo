@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style/Page.css'
 import Navbar from './Navbar'
 import Page from './Page'
-import LieuxContent from '../components/LieuxContent.js'
+import LieuxContent from './LieuxContent.js'
 import bg1 from '../img/bgHome1.jpg'
 
 class Lieux extends Component {

@@ -1,0 +1,63 @@
+[
+  {
+    "jour": "Lundi",
+    "nom": "Nadège Dora",
+    "titre": "Professeur",
+    "photo": "../img/nadege_vignette.jpg",
+    "horaires": [
+      "18h45 - 19h45 : Salsa porto débutant",
+      "19h45 - 20h15 : Danse libre",
+      "20h15 - 21h15 : Salsa porto intermédiaire",
+      "21H15 - 23h45 : Soirée SBK gratuite"
+    ],
+    "facebook": "http://www.facebook.com",
+    "nomLieu": "Le Bliss",
+    "adresseLieu": "8 rue Coquillère",
+    "villeLieu": "75001 Paris"
+  },
+  {
+    "jour": "Mardi",
+    "nom": "Celly & Alix",
+    "titre": "Professeurs",
+    "horaires": [
+      "18h45 - 19h45 : Bachata intermédiaire",
+      "19h45 - 20h15 : Danse libre",
+      "20h15 - 21h15 : Salsa porto avancé",
+      "21H15 - 23h45 : Soirée SBK gratuite"
+    ],
+    "facebook": "http://www.facebook.com",
+    "nomLieu": "Le Bliss",
+    "adresseLieu": "8 rue Coquillère",
+    "villeLieu": "75001 Paris"
+  },
+  {
+    "jour": "Mercredi",
+    "nom": "Julien Rogaume",
+    "titre": "Professeur",
+    "horaires": [
+      "18h45 - 19h45 : Bachata débutant",
+      "19h45 - 20h15 : Danse libre",
+      "20h15 - 21h15 : Salsa porto intermediaire",
+      "21H15 - 23h45 : Soirée SBK gratuite"
+    ],
+    "facebook": "http://www.facebook.com",
+    "nomLieu": "Le Café du Temple",
+    "adresseLieu": "14 rue du Faubourg du Temple",
+    "villeLieu": "75011 Paris"
+  },
+  {
+    "jour": "Dimanche",
+    "nom": "Alex Lima",
+    "titre": "Professeur",
+    "horaires": [
+      "18h45 - 19h45 : Salsa cubaine débutant",
+      "19h45 - 20h15 : Danse libre",
+      "20h15 - 21h15 : Salsa cubaine intermediaire",
+      "21H15 - 23h45 : Soirée SBK gratuite"
+    ],
+    "facebook": "http://www.facebook.com",
+    "nomLieu": "Le Bliss",
+    "adresseLieu": "8 rue Coquillère",
+    "villeLieu": "75001 Paris"
+  }
+]

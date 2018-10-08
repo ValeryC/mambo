@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style/Page.css'
 import Navbar from './Navbar.js'
 import Page from './Page.js'
-import GalerieContent from '../components/GalerieContent.js'
+import GalerieContent from './GalerieContent.js'
 import bg2 from '../img/bgHome2.jpg'
 
 class Galerie extends Component {
