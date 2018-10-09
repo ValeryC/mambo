@@ -64,7 +64,11 @@ class LieuxContent extends Component {
 
   componentDidMount () {
     lieux.forEach((place, index) => {
-      document.getElementsByClassName('place-description')[index].innerHTML = place.description
+      document.getElementsByClassName('place-description')[index]
+        .innerHTML = place.description
+      document.getElementsByClassName('carousel-global')[index]
+        .style.width = '75%'
+      document.getElementsByClassName('carousel')[index].style.height = '30em'
     })
   }
 
