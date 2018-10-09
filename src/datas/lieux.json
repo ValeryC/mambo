@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Le Bliss",
+    "address": "8 rue des coquillière",
+    "postalCode": "75019 Paris",
+    "phone": "01 40 28 99 99",
+    "website": "www.blissparis.fr",
+    "metro": "Metro Les Halles",
+    "rer": "Chatelet - Les Halles",
+    "description": "C’est un lieu branché aux décors habillés d’un mobilier provenant des quatre coins du monde. Une ambiance conviviale invitant au voyage et totalement dans l’esprit de Mambo Salsa. 120m2 d’espace de danse avec parquet. <br><br>Sur la carte du Bliss, de très bons cocktails à partir de 8 euros, pizzas, salades, tapas, burger, etc, tout ça fait maison."
+  },
+  {
+    "name": "Le Café du temple",
+    "address": "14 rue du Faubourg du Temple",
+    "postalCode": "75011 Paris",
+    "phone": "01 58 30 38 95",
+    "website": "www.cafedutemple.fr",
+    "metro": "Metro République",
+    "rer": "",
+    "description": "Au rez-de-chaussée, ce restaurant à deux pas de la place de la République vous propose de bons plats français. Au 1er étage ça danse ! Et pour le plus grand bonheur de nos membres, les mambos ont des tarifs préférentiels sur une partie des boissons. <br><br>La salle où se déroulent les cours au Café du Temple est également privatisable. Les tarifs sont les suivants :<br>– Lundi / Mardi : 300€<br>– Jeudi : 400€<br>– Vendredi : 500€<br>– Samedi : 600€"
+  }
+]

@@ -1,0 +1,50 @@
+.place-odd {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  height: 30em;
+}
+
+.place-even {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  height: 30em;
+}
+
+.place-infos {
+  background-color: #bf4a04;
+  color: white;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.place-infos a {
+  text-decoration: none;
+  color: white;
+}
+
+.place-infos a:hover {
+  font-weight: 500;
+}
+
+.place-name {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.9em;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.place-carousel {
+  filter: grayscale(1);
+}

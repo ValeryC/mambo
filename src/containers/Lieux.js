@@ -9,9 +9,9 @@ class Lieux extends Component {
   render() {
     return (
       <div className='page'>
-      <Navbar />      
-      <Page Content={LieuxContent} background={bg1} categoryName='Lieux'/>
-    </div>
+        <Navbar />
+        <Page Content={LieuxContent} background={bg1} categoryName='Lieux'/>
+      </div>
     )
   }
 }

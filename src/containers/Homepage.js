@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './style/Homepage.css'
 import '../components/Carousel/Carousel.css'
 import Navbar from './Navbar.js'
-import Carousel from '../components/Carousel/Carousel.js'
+import { CarouselBackground } from '../components/Carousel/Carousel.js'
 import LinkToPagePart from '../components/LinkToPagePart.js'
 import HomepagePresentationContent from '../components/HomepagePresentationContent.js'
 import HomepageActu from '../components/HomepageActu.js'
@@ -14,7 +14,7 @@ render() {
       <div className='homepage'>
         <Navbar />
         <div className='homepage-carousel-part'>
-          <Carousel />
+          <CarouselBackground />
           <LinkToPagePart text="Découvrez l'association" anchor='#presentationAsso' classStyle='homepage-link-to-page-part'/>
         </div>
         <div  className='homepage-presentation-container'>
