@@ -30,6 +30,7 @@ class LieuxContent extends Component {
       </React.Fragment>
     )
   }
+  
 
   oddPlace = lieu => {
     return (
