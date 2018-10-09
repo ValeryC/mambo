@@ -8,11 +8,27 @@
   height: 100vh;
 }
 
-.carousel img {
+.carousel-img-home {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
   object-position: bottom;
+}
+
+.carousel-place {
+  filter: grayscale(1);
+  width: 75%;
+}
+
+.carousel-place:hover {
+  filter: grayscale(0);
+}
+
+.carousel-img-place {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .carousel-status {
